@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin: 0; 
+    background-color:mediumorchid;
+}
+
+.container {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start */
+    background-color:lightseagreen;
+    padding: 20px; /* Add some padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow for depth */
+}
+
+.game {
+    margin-bottom: 20px; /* Space between elements */
+    font-size: 2em; /* Adjust font size as needed */
+    color: white; /* Text color */
+}
+
+h1 {
+    font-size: 2em; /* Adjust font size as needed */
+    margin: 0; /* Remove default margin */
+}
+
+input {
+    margin: 10px 0; /* Space around input */
+    padding: 10px; /* Padding for input */
+    font-size: 0.5em; /* Font size for input */
+    border-radius: 4px; /* Rounded corners for input */
+    border: none; /* Remove border */
+}
+
+button {
+    padding: 10px 10px; /* Padding for buttons */
+    font-size: 0.5em; /* Font size for buttons */
+    border-radius: 4px; /* Rounded corners for buttons */
+    border: none; /* Remove border */
+    cursor: pointer; /* Pointer cursor on hover */
+    margin-right: 10px; /* Space between buttons */
+}
+
+#submit {
+    background-color: green; /* Green button */
+    color: white; /* Button text color */
+}
+
+#restart {
+    background-color: red; /* Red button */
+    color: white; /* Button text color */
+}
+
+#message {
+    color: yellow; /* Message color */
+    font-size: 1.5em; /* Font size for message */
+}
